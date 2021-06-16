@@ -11,6 +11,14 @@
 		var i= 0;
 		document.querySelector("button").addEventListener("click",function(){
 			i = 1 < color.length ? ++i : 0;
+			if(i < color.length)
+			{
+    				i+=1
+			}
+			else
+			{
+    				i = 0
+			}
 
 		document.querySelector ("body").style.background = color[i]
 			})
